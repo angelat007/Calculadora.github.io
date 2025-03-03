@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(18, 72, 126);
+}
+
+button {
+    background-color: white;
+    box-shadow: 1px 2px 5px black;
+    color: black;
+    border: 0;
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+    font-size: 1em;
+    font-weight: 900;
+}
+
+#botones{
+    background-color: rgb(8, 45, 82);
+    align-items: center;
+}
+
+#buton-borar{
+    background-color: rgb(22, 97, 172);
+    color: white;
+}
+
+#buton-borar:hover{
+    background-color: rgb(17, 77, 138);
+}
+
+#buton-RESET{
+    background-color: rgb(22, 97, 172);
+    color: white;
+    width: 103.5px;
+}
+
+#buton-RESET:hover{
+    background-color: rgb(17, 77, 138);
+}
+
+#buton-igual{
+    background-color: rgb(187, 46, 46);
+    color: white;
+    width: 105px;
+}
+
+#buton-igual:hover{
+    background-color: rgb(163, 34, 34);
+}
+
+.text-calc{
+    color: white;
+    font-weight: 900;
+}
