@@ -1,58 +1,91 @@
-* {
-    margin: 0;
-}
-
 body {
-    background-color: rgb(18, 72, 126);
-}
+    background-color: rgb(18, 72, 126); font-family: "Comic Sans MS", Arial, Helvetica, sans-serif; }/*color de fondo*/
 
+
+/*estilos a los botones*/
 button {
     background-color: white;
     box-shadow: 1px 2px 5px black;
     color: black;
     border: 0;
     border-radius: 5px;
-    height: 50px;
-    width: 50px;
+    height: 60px;
+    width: 60px;
     font-size: 1em;
-    font-weight: 900;
+    font-weight: 900; /*texto en negrita*/
 }
 
 #botones{
-    background-color: rgb(8, 45, 82);
-    align-items: center;
+    background-color: rgb(8, 45, 82); /*color de fondo*/
+    border-radius: 7px;
+    text-align: center;
+    transform: translateX(117%);
+    width: 30%;
+    padding: 30px 0px 30px;
 }
 
+/*color de hover a los botones blancos*/
+#buton-multiplicar:hover,
+#buton-divicion:hover,
+#buton-point:hover,
+#buton-resta:hover,
+#buton-suma:hover,
+.num-buton:hover{ background-color: rgb(224, 224, 224);}
+
+
 #buton-borar{
-    background-color: rgb(22, 97, 172);
+    background-color: rgb(22, 97, 172); /*color de fondo*/
     color: white;
 }
 
 #buton-borar:hover{
-    background-color: rgb(17, 77, 138);
+    background-color: rgb(17, 77, 138);/*color de hover*/
 }
 
 #buton-RESET{
-    background-color: rgb(22, 97, 172);
+    background-color: rgb(22, 97, 172);/*color de fondo*/
     color: white;
-    width: 103.5px;
+    width: 125px;
 }
 
 #buton-RESET:hover{
-    background-color: rgb(17, 77, 138);
+    background-color: rgb(17, 77, 138);/*color de hover*/
 }
 
 #buton-igual{
-    background-color: rgb(187, 46, 46);
+    background-color: rgb(187, 46, 46);/*color de fondo*/
     color: white;
-    width: 105px;
+    width: 125px;
 }
 
 #buton-igual:hover{
-    background-color: rgb(163, 34, 34);
+    background-color: rgb(163, 34, 34);/*color de hover*/
 }
 
+/*texto calc*/
 .text-calc{
     color: white;
     font-weight: 900;
+    text-align: center;
+    margin-left: -355px;
 }
+
+
+/*imput*/
+#imput{
+    text-align: center;
+}
+
+input {
+    background-color: rgb(6, 33, 59);/*color de fondo*/
+    color: white;
+    border: none;
+    border-radius: 7px;
+    padding: 13px;
+    width: 375px;
+    height: 50px;
+    text-align: right;
+    font-size: 2.50em;
+    font-weight: 900; /*texto en negrita*/
+}
+
