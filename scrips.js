@@ -26,3 +26,5 @@ botones.forEach(button => {
 });
 
 //funciom para el boton de reset// 
+
+//*funcion del keypres*//
