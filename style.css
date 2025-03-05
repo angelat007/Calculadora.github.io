@@ -10,9 +10,11 @@ button {
     border: 0;
     border-radius: 5px;
     height: 60px;
-    width: 60px;
+    width: 80px;
     font-size: 1em;
     font-weight: 900; /*texto en negrita*/
+    margin: 3px;
+    margin-top: -10px;
 }
 
 #botones{
@@ -42,13 +44,16 @@ button {
     background-color: rgb(17, 77, 138);/*color de hover*/
 }
 
-#buton-RESET{
+#butonReset{
     background-color: rgb(22, 97, 172);/*color de fondo*/
     color: white;
     width: 125px;
+    height: 60px;
+    font-size: 0.9em;
+    box-shadow: 1px 2px 5px black;
 }
 
-#buton-RESET:hover{
+#butonReset:hover{
     background-color: rgb(17, 77, 138);/*color de hover*/
 }
 

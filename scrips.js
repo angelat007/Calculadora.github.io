@@ -24,3 +24,5 @@ const calculate = (btnValue) => {
 botones.forEach(button => {
     button.addEventListener("click", e => calculate(e.target.dataset.value))
 });
+
+//funciom para el boton de reset// 
