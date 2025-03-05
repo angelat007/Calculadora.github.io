@@ -47,9 +47,10 @@ button {
 #butonReset{
     background-color: rgb(22, 97, 172);/*color de fondo*/
     color: white;
-    width: 125px;
+    width: 170px;
     height: 60px;
     font-size: 0.9em;
+    text-align: center;
     box-shadow: 1px 2px 5px black;
 }
 
@@ -60,7 +61,7 @@ button {
 #buton-igual{
     background-color: rgb(187, 46, 46);/*color de fondo*/
     color: white;
-    width: 125px;
+    width: 170px;
 }
 
 #buton-igual:hover{
