@@ -113,9 +113,9 @@ input {
 /*Modo para celulares*/
 @media (max-width:720px) {
     input {
-        margin-left: 205px;
         width: 275px;
-        height: 50px;
+        height: 70px;
+        font-size: 3em;
     }
 
     #botones {
@@ -127,7 +127,7 @@ input {
     /*posicion del texto*/
     .text-calc {
         margin-top: 0.1px;
-        margin-right: -300px;
+        margin-right: -90px;
     }
 
     button {
@@ -143,55 +143,5 @@ input {
     #buton-igual {
         width: 130px;
         height: 60px;
-    }
-
-    body {
-        position: fixed;
-    }
-}
-
-/*Modo para tablet*/
-@media (min-width:1920px) {
-    * {
-        margin: 0;
-    }
-
-    input {
-        margin-left: 167px;
-        width: 410px;
-        height: 50px;
-    }
-
-    #botones {
-        margin-left: -350px;
-        padding: 45px;
-        width: 350px;
-        height: 350px;
-    }
-
-    /*posicion del texto*/
-    .text-calc {
-        margin-right: -90px;
-        visibility: hidden;
-        /*visible NO*/
-    }
-
-    button {
-        width: 70px;
-        height: 60px;
-    }
-
-    #butonReset {
-        width: 150px;
-        height: 60px;
-    }
-
-    #buton-igual {
-        width: 150px;
-        height: 60px;
-    }
-
-    body {
-        position: fixed;
     }
 }
