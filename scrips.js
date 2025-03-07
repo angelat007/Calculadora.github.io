@@ -9,11 +9,11 @@ const calculate = (btnValue) => {
     if (btnValue === "=" && output !== "") {
         // Si la salida tiene '%', reemplazar con '/100' antes de evaluar.
         output = eval(output.replace("%", "/100"));
-        // funciom para el boton de reset
+        // funciom para el boton de borrar/delete
     } else if (btnValue === "DEL") {
         // Si se hace clic en el botón DEL, eliminar el último carácter de la salida.
         output = output.toString().slice(0, -1);
-        // funciom para el boton de borrar/delete
+        // funciom para el boton de reset
     } else if (btnValue === "RESET") {
         // Si se hace clic en el botón RESET, eliminar todos los caracteres de la salida.
         output = output.toString().slice(0, 0);
