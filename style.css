@@ -89,7 +89,6 @@ button {
     margin-left: -355px;
 }
 
-
 /*imput*/
 #imput {
     text-align: center;
@@ -108,6 +107,20 @@ input {
     font-size: 1.50em;
     font-weight: 900;
     /*texto en negrita*/
+}
+
+/*animaciones para botones*/
+button:active{
+    transition: 0.1s;
+    width: 70px;
+    height: 59px;
+}
+
+#butonReset:active,
+#buton-igual:active {
+    transition: 0.1s;
+    width: 165px;
+    height: 55px;
 }
 
 /*Modo para celulares*/
@@ -143,5 +156,19 @@ input {
     #buton-igual {
         width: 130px;
         height: 60px;
+    }
+
+    /*animaciones para botones*/
+    button:active {
+        transition: 0.1s;
+        width: 70px;
+        height: 59px;
+    }
+
+    #butonReset:active,
+    #buton-igual:active {
+        transition: 0.1s;
+        width: 130px;
+        height: 55px;
     }
 }
