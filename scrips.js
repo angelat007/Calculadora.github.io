@@ -1,5 +1,7 @@
 const imputext = document.querySelector(".imputext");
 const botones = document.querySelectorAll("button");
+const blackColor = document.querySelector(".black");
+const colorButton = document.getElementById("button");
 const specialChars = ["%", "*", "/", "-", "+", "="];
 let output = "";
 
@@ -46,5 +48,7 @@ document.addEventListener("keydown", (e) => {
         calculate(key);
     } else if (["%", "*", "/", "-", "+", "."].includes(key)) {
         calculate(key);
+    } else if (key === "Delete") {
+        calculate("RESET");
     }
 });
